@@ -1,11 +1,12 @@
-# Aufgabenstand
+# Task status
 
-`[ ]` offen · `[~]` in Arbeit · `[x]` geprüft und abgeschlossen
+`[ ]` Todo · `[~]` In progress · `[x]` Verified and complete
 
-- [x] T-01: Umfang und getrennte Veröffentlichung festlegen; private App und Profil prüfen.
-- [x] T-02: Simulator-Demo mit erfundenen Karten und eigenen Grafiken vorbereiten; Screenshots aufnehmen.
-- [x] T-03: README, Architektur, Datenmodell und Bildherkunft dokumentieren.
-- [x] T-04: Ausgewählte Swift-Kernlogik mit sinnvollen Tests veröffentlichungsfähig aufbereiten.
-- [x] T-05: Justfile, Hooks und CI einrichten; Inhalte und Darstellung prüfen.
-- [x] T-06: Eigenständiges öffentliches Repository erstellen und geprüften Stand übertragen.
-- [x] T-07: Repo auf dem persönlichen Profil anheften; öffentliche Erreichbarkeit und private Original-App prüfen.
+- [x] T-01: Define the showcase scope and inspect the private app and public profile.
+- [x] T-02: Prepare isolated demo data and original artwork; capture app screenshots.
+- [x] T-03: Document the project, architecture, data model, and screenshot sources.
+- [x] T-04: Extract focused Swift logic and add meaningful tests.
+- [x] T-05: Configure just, hooks, and CI; verify the presentation.
+- [x] T-06: Publish the separate public repository.
+- [x] T-07: Add the profile link and pin; verify the original app remains private.
+- [x] T-08: Shorten and translate all presentation copy; refresh screenshots with English labels, scanner UI, and Millennium gallery; match the banner to the app.

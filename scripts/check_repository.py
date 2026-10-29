@@ -20,7 +20,8 @@ required = ['README.md', 'NOTICE.md', 'Package.swift', 'AGENTS.md', 'justfile', 
             'docs/PRD.md', 'docs/ARCHITECTURE.md', 'docs/SCHEMA.md', 'docs/TASKS.md',
             'docs/SCREENSHOTS.md', 'assets/hero.svg', '.github/workflows/check.yml']
 required += [f'assets/screenshots/{name}.png' for name in
-             ['01-collection', '02-deck', '03-card-detail', '04-missing-cards', '05-scan-detail']]
+             ['01-collection', '02-deck', '03-card-detail', '04-missing-cards', '05-scan-detail',
+              '06-scanner', '07-millennium']]
 for name in required:
     if not (ROOT / name).is_file():
         errors.append('Missing required file: ' + name)

@@ -1,11 +1,9 @@
-# Nutzung und Rechte
+# Rights and usage
 
-Copyright © 2026 Hallaka01. Alle Rechte vorbehalten, soweit gesetzlich vorgesehen.
+Copyright © 2026 Hallaka01. All rights reserved where applicable.
 
-Dieses Repository wird zur öffentlichen Projektpräsentation und Begutachtung bereitgestellt. Es wurde derzeit keine Open-Source-Lizenz für eine weitergehende Nutzung, Veränderung oder Weiterverbreitung erteilt. Gesetzliche Befugnisse und die durch die GitHub-Nutzungsbedingungen eingeräumten Rechte bleiben unberührt.
+This repository is provided for public presentation and review. No general open-source license is granted for further use, modification, or redistribution. Statutory rights and rights granted by GitHub's terms remain unaffected.
 
-Die enthaltenen Demo-Grafiken, Kartennamen und Beispieltexte wurden eigens für diese Präsentation erstellt. Sie sind keine offiziellen Spielinhalte.
+Demo artwork, card names, and example text were created for this showcase and are not official game content. No complete card dataset or official card illustrations are distributed.
 
-Yu-Gi-Oh! und zugehörige Marken gehören ihren jeweiligen Rechteinhabern. Dies ist ein unabhängiges persönliches Projekt und steht in keiner Verbindung zu Konami. Der Hinweis beschreibt den Anwendungsbereich der privaten App und stellt keine Rechteübertragung an Spielinhalten dar.
-
-Technische Schnittstellen und Dokumentationen Dritter unterliegen ihren eigenen Bedingungen. Das Repository enthält keinen vollständigen Kartendatensatz und keine offiziellen Kartenillustrationen.
+Yu-Gi-Oh! and related trademarks belong to their respective owners. This independent personal project is not affiliated with Konami. Third-party services and documentation remain subject to their own terms.

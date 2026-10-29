@@ -1,17 +1,21 @@
-# YGO Scanner · Portfolio-Anforderungen
+# Showcase requirements
 
-## Ziel
-Ein öffentliches, auf dem persönlichen GitHub-Profil anheftbares Präsentations-Repository für die bestehende private iOS-App. Besucher verstehen Nutzen, technische Entscheidungen und ausgewählte Implementierungen, ohne Zugriff auf private Sammlungsdaten oder den vollständigen App-Code zu benötigen.
+## Purpose
 
-## Umfang
-- Deutsche Projektbeschreibung mit kurzer englischer Zusammenfassung.
-- Echte Simulator-Screenshots der App mit ausschließlich erfundenen Karten, originalen Demo-Grafiken und getrenntem In-Memory-Datenbestand.
-- Kleine, ausführbare Swift-Codeauszüge für OCR-Auswertung, Scan-Bestätigung und Auflagencode-Normalisierung.
-- Dokumentierte lokale Speicherstruktur, Datenfluss und Grenzen der Demo.
-- Profil-Verlinkung und Pin des öffentlichen Repos, sofern möglich.
+Present an existing private iOS app on a public GitHub profile. Visitors should quickly understand the app through screenshots, a short feature overview, and selected code examples.
 
-## Bewusste Grenzen
-Keine App-Veröffentlichung, keine neue App, kein Backend, keine Anmeldung. Kein privates Git-Verzeichnis, keine privaten Sammlungsdaten, keine offiziellen Kartenbilder oder Kartentexte, keine Feli-Karte. Keine pauschale Open-Source-Lizenz; das Repository dient zunächst der öffentlichen Begutachtung.
+## Scope
 
-## Abnahme
-Alle lokalen Verweise funktionieren; Bilder sind visuell geprüft. Swift-Beispiele bestehen ihre Tests. Die ursprüngliche App bleibt privat und unverändert. Das öffentliche Repo enthält ausschließlich die hier beschriebenen Inhalte.
+- English copy throughout the presentation, including the banner and screenshot UI.
+- A concise README without process commentary or repetitive disclaimers.
+- Real app views showing the scanner, Millennium gallery, Branded collection, and deck planning.
+- Fictional cards and original demo artwork; clearly identify the simulated camera preview.
+- Standalone Swift extracts, tests, and compact architecture and data model notes.
+
+## Boundaries
+
+Keep the original app, Git history, credentials, and real collection private. Do not distribute official card artwork or copied card text. Existing usage rights remain unchanged.
+
+## Acceptance
+
+Review the screenshots and rendered README, verify local links and Swift checks, publish the update, and keep the original app unchanged.

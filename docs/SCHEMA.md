@@ -1,22 +1,14 @@
-# Datenmodell und Demo-Daten
+# Data model
 
-Das Präsentations-Repository selbst benötigt keine Datenbank und enthält keine Datenbankdateien.
-
-## Datenmodell der privaten App
-| Typ | Aufgabe |
+| Model | Responsibility |
 | --- | --- |
-| CardItem | Ein physisches Exemplar mit Karten-ID, Auflage, Sprache, Zustand, Notizen sowie optionaler Ordner- und Deckzuordnung. |
-| Deck | Rezept mit Name, Variante, Format und Einträgen. |
-| DeckEntry | Karten-ID, Main-/Extra-/Side-Bereich und Menge; Kartentext und Regelreferenzen werden für die Offline-Anzeige mitgespeichert. |
-| CollectionFolder | Benannter Sammlungsordner mit eigener Identität. |
+| CardItem | One physical copy, including card identity, printing, language, condition, notes, and optional folder and deck assignments. |
+| Deck | A named recipe with a variant, format, and entries. |
+| DeckEntry | Card identity, Main/Extra/Side section, quantity, and cached details for offline display. |
+| CollectionFolder | A named collection folder with its own identity. |
 
-Drei physische Exemplare sind drei CardItems. Ein Rezept kann dagegen einen DeckEntry mit Menge drei enthalten. Eine exklusive Deckzuordnung eines physischen Exemplars wird getrennt vom Rezept geführt.
+Three physical copies are three CardItems. A recipe can represent them with one DeckEntry of quantity three. Physical deck assignments remain separate from recipe quantities, so a copy assigned elsewhere is not counted as available.
 
-## Weitere Speicher
-- Scan-Entwürfe: separate lokale JSON-Datei.
-- Kartendaten: zeitlich begrenzter JSON-Cache.
-- Bilder: lokaler Dateicache.
-- Design-, Ton- und Haptikpräferenzen: UserDefaults.
+SwiftData persists these models locally. Draft scans and cached card responses use JSON; images use a file cache; preferences use UserDefaults.
 
-## Veröffentlichte Demo
-Namen, Texte, Preise, Besitzmengen und Decks in den Screenshots sind erfunden. Demo-IDs sind ausschließlich synthetische Testdaten und keine überprüften Spielkarten-IDs. Grafiken sind eigenständige geometrische Entwürfe. Es werden keine API-Abfragen für die Demo-Karten benötigt.
+The showcase contains no database. Screenshot cards, text, prices, quantities, and IDs are synthetic demo content.
