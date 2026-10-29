@@ -1,0 +1,21 @@
+name: Portfolio checks
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v7.0.1
+      - name: Install command runner
+        run: brew install just
+      - name: Check presentation and Swift sources
+        run: just check
+      - name: Test extracted application logic
+        run: just test
