@@ -1,10 +1,12 @@
-<img src="assets/hero.svg" alt="YGO Scanner in the app's purple and gold Millennium style" width="100%">
+<a href="https://hallaka01.github.io/#ygo-scanner" title="View YGO Scanner in my portfolio"><img src="assets/hero.svg" alt="YGO Scanner in the app's purple and gold Millennium style — open the portfolio" width="100%"></a>
 
 # YGO Scanner
 
 A native iPhone companion for scanning cards, organizing a physical collection, and building decks around the copies I actually own.
 
 **A personal project by [Hallaka01](https://github.com/Hallaka01)** · SwiftUI · SwiftData · AVFoundation · Vision · iOS 17+
+
+**[View this project in my Neon City portfolio ↗](https://hallaka01.github.io/#ygo-scanner)**
 
 ## Inside the app
 

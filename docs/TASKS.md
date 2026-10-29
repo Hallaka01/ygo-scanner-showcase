@@ -10,3 +10,4 @@
 - [x] T-06: Publish the separate public repository.
 - [x] T-07: Add the profile link and pin; verify the original app remains private.
 - [x] T-08: Shorten and translate all presentation copy; refresh screenshots with English labels, scanner UI, and Millennium gallery; match the banner to the app.
+- [~] T-09: Add a visible portfolio entry through the banner, README link, and repository website.
