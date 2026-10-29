@@ -15,3 +15,5 @@ Eine temporäre Kopie des privaten Projekts wird mit isolierten Demo-Daten und e
 
 ## Qualität
 `just check` prüft Dokumentationslinks und Veröffentlichungsgrenzen; `just test` führt die Swift-Tests aus. Lefthook wiederholt die passenden Prüfungen vor Commit und Push. GitHub Actions führt beide Gates auf macOS aus.
+
+Die Swift-Buildprodukte liegen unter dem temporären Systemverzeichnis. Das hält generierte Compiler-Dateien außerhalb von iCloud-Projektordnern und vermeidet Dateisynchronisierung während des Builds.

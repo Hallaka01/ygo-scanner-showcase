@@ -8,4 +8,4 @@
 - [x] T-04: Ausgewählte Swift-Kernlogik mit sinnvollen Tests veröffentlichungsfähig aufbereiten.
 - [x] T-05: Justfile, Hooks und CI einrichten; Inhalte und Darstellung prüfen.
 - [~] T-06: Eigenständiges öffentliches Repository erstellen und geprüften Stand übertragen.
-- [ ] T-07: Repo auf dem persönlichen Profil anheften; öffentliche Erreichbarkeit und private Original-App prüfen.
+- [~] T-07: Repo auf dem persönlichen Profil anheften; öffentliche Erreichbarkeit und private Original-App prüfen.

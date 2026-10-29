@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Offline checks for links, image integrity and this showcase's publication scope."""
 
+import os
 import re
 import struct
 import sys
@@ -11,7 +12,10 @@ from urllib.parse import unquote
 ROOT = Path(__file__).resolve().parents[1]
 SKIP = {'.git', '.build', '.swiftpm', '__pycache__'}
 errors = []
-files = [p for p in ROOT.rglob('*') if p.is_file() and not SKIP.intersection(p.relative_to(ROOT).parts)]
+files = []
+for directory, folders, names in os.walk(ROOT):
+    folders[:] = sorted(folder for folder in folders if folder not in SKIP)
+    files.extend(Path(directory) / name for name in sorted(names))
 required = ['README.md', 'NOTICE.md', 'Package.swift', 'AGENTS.md', 'justfile', 'lefthook.yml',
             'docs/PRD.md', 'docs/ARCHITECTURE.md', 'docs/SCHEMA.md', 'docs/TASKS.md',
             'docs/SCREENSHOTS.md', 'assets/hero.svg', '.github/workflows/check.yml']

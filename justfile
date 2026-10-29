@@ -9,7 +9,7 @@ check:
     swiftc -typecheck Examples/ScannerCore/*.swift
 
 test:
-    swift test
+    swift test --scratch-path "${TMPDIR:-/tmp}/ygo-scanner-showcase-build"
 
 preview:
     python3 -m http.server 8765 --bind 127.0.0.1
